@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Icons</title>
+    <style>
+      .hide {
+        display: none;
+      }
+      .textContainer {
+        display: flex;
+      }
+      button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 40px;
+}
+ 
+.chaww {
+position: absolute;
+left: 500px;
+top: 200px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- ==================== -->
+    <div>
+      <div class="iconButtonContainer">
+  <button class="myDIV"> 😊 </button>
+  <button class="myDIV"> 😥 </button>
+  <button class="myDIV"> 😡</button> 
+   <button class="myDIV"> 🥱 </button>
+     <button class="myDIV"> 😴 </button>
+       <button class="myDIV"> ❓ </button>
+      </div>
+      <div class="textContainer">
+ 
+        <div class="hide">
+          <img
+            src="https://cdn.glitch.com/85899f1c-a7cf-4c75-8089-8a7dc39b8a6b%2FScreenshot_1.png?v=1631458132568" 
+            class="chaww"
+            alt="Editor illustration"
+          /> 
+        </div>
+ 
+        <div class="hide">
+          <img
+            src="https://cdn.glitch.com/85899f1c-a7cf-4c75-8089-8a7dc39b8a6b%2FScreenshot_3.png?v=1631458134866"
+            class="chaww"
+            alt="Editor illustration"
+          />
+        </div>
+ 
+        <div class="hide">
+          <img
+            src="https://cdn.glitch.com/85899f1c-a7cf-4c75-8089-8a7dc39b8a6b%2FScreenshot_2.png?v=1631458132992"
+            class="chaww"
+            alt="Editor illustration"
+          />
+        </div>
+        <div class="hide">
+          <img
+            src="https://stickershop.line-scdn.net/stickershop/v1/sticker/179762766/android/sticker.png;compress=true"
+            class="chaww"
+            alt="Editor illustration"
+          />
+        </div>
+        <div class="hide">
+          <img
+            src="https://stickershop.line-scdn.net/stickershop/v1/sticker/179762767/android/sticker.png;compress=true"
+            class="chaww"
+            alt="Editor illustration"
+          />
+        </div>
+        <div class="hide">
+          <img
+            src="https://stickershop.line-scdn.net/stickershop/v1/sticker/179762776/android/sticker.png;compress=true"
+            class="chaww"
+            alt="Editor illustration"
+          />
+        </div>
+      </div>
+    </div>
+  <div>
+  </body>
+  <script>
+    const myDIV = document.querySelectorAll(".myDIV");
+    const hide = document.querySelectorAll(".hide");
+    for (let i = 0; i < myDIV.length; i++) {
+      myDIV[i].addEventListener("mouseover", () => {
+        hide[i].classList.toggle("hide");
+      });
+      myDIV[i].addEventListener("mouseout", () => {
+        hide[i].classList.toggle("hide");
+      });
+    }
+  </script>
+</html>
+ 
